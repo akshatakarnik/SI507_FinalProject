@@ -18,7 +18,8 @@ I used a binary tree structure to present the data. The user was given an option
 
 ## How it works
 
-1) Once the program recieves input from the user about a species they would like to know about, it 
+1) The program has a built in list for species belonging to each family the user can select. Once the user picks a family, the program displays the list of species and prompts the user to pick one.
+2) After the user selects the species, the program scrapes the relevant information from the above IUCN API. This is then presented in the form of text and a phylogenetic tree.
 
 ## Running the program
 
